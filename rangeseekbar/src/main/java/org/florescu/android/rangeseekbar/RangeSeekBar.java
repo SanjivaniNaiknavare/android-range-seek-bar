@@ -88,7 +88,7 @@ public class RangeSeekBar<T extends Number> extends ImageView {
     private static final int NUMBER_FORMAT_DEFAULT = 1;
     private static final int NUMBER_FORMAT_CURRENCY = 2;
 
-    private static final int LINE_HEIGHT_IN_DP = 1;
+    private static final int LINE_HEIGHT_IN_DP = 5;
     private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint shadowPaint = new Paint();
 
